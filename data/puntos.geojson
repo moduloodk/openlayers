@@ -1,0 +1,116 @@
+{
+	"type": "FeatureCollection",
+	"name": "puntos",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "PARQUE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.023843,
+					-12.079823
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "PARQUE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.02230171524168,
+					-12.077448499628254
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "PARQUE"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.0233508096655,
+					-12.085522273606074
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "HUACA"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.01817976654276,
+					-12.087289076208334
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "COLEGIO"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.0181088817844,
+					-12.085212152788233
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "COLEGIO"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.02176653531606,
+					-12.08105830594802
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "ZOOLOGICO"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.08603774572596,
+					-12.068887392936683
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"descripcion": "AEROPUERTO"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.11121601189736,
+					-12.023464439776147
+				]
+			}
+		}
+	]
+}

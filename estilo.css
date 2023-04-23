@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    padding:0;
+}
+#mapa{
+    height:100vh;
+    width:100vw;
+}
+
+.ol-control button{
+    border-radius:15px;
+}
+.ol-zoom .ol-zoom-in{
+    border-radius:15px;
+}
+.ol-zoom .ol-zoom-out{
+    border-radius:15px;
+}
+.ol-overviewmap{
+    left:.5em;
+    bottom: 3.5em;
+}
+.ol-mouse-position{
+    top: unset;
+    right: 8px;
+    bottom: 15px;
+    position: absolute;
+}
+#popup{
+    color:red
+}
+
+#popup-container{
+    background-color: #555;
+    width: 150px;
+    color: #fff;
+    text-align: center;
+    border-radius: 1px;
+    padding: 2px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#popup-container #popup-title::after{
+    content:"";
+    position: absolute;
+    top:100%;
+    left:50%;
+    margin-left: -10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+

@@ -1,0 +1,89 @@
+{
+	"type": "FeatureCollection",
+	"name": "vias",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"nombre": "AV PALERMO"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						-77.022815,
+						-12.079313
+					],
+					[
+						-77.022959,
+						-12.079988
+					],
+					[
+						-77.023187,
+						-12.080971
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"nombre": "CA LOS DIAMANTES"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						-77.02282626245357,
+						-12.079263149442378
+					],
+					[
+						-77.02309916877327,
+						-12.079178087732342
+					],
+					[
+						-77.0233578981413,
+						-12.079032773977695
+					],
+					[
+						-77.02362017174726,
+						-12.078844929368028
+					]
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"nombre": "CA LAS TURQUESAS"
+			},
+			"geometry": {
+				"type": "LineString",
+				"coordinates": [
+					[
+						-77.02361662750933,
+						-12.0788201197026
+					],
+					[
+						-77.02390016654279,
+						-12.078965433457248
+					],
+					[
+						-77.02437509442383,
+						-12.079163910780668
+					],
+					[
+						-77.02514419405209,
+						-12.079450994052044
+					]
+				]
+			}
+		}
+	]
+}

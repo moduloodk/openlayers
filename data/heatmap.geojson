@@ -1,0 +1,64 @@
+{
+	"type": "FeatureCollection",
+	"name": "heatmap",
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	},
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"tasa": "1"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.07961558661802,
+					-12.00818168587257
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"tasa": "0.5"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.02230171524168,
+					-12.077448499628254
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"tasa": "0.9"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.08603774572596,
+					-12.068887392936683
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"tasa": "0.2"
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					-77.11121601189736,
+					-12.023464439776147
+				]
+			}
+		}
+	]
+}
