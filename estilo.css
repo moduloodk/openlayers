@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+}
+#mapa{
+    height:100vh;
+    width:100vw;
+}
+
+.ol-control button{
+    border-radius:15px;
+}
+.ol-zoom .ol-zoom-in{
+    border-radius:15px;
+}
+.ol-zoom .ol-zoom-out{
+    border-radius:15px;
+}
+.ol-overviewmap{
+    left:.5em;
+    bottom: 3.5em;
+}
+.ol-mouse-position{
+    top: unset;
+    right: 8px;
+    bottom: 15px;
+    position: absolute;
+}
+
+.ol-popup {
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+    left: -50px;
+    min-width: 280px;
+  }
+  .ol-popup:after, .ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 48px;
+    margin-left: -10px;
+  }
+  .ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 48px;
+    margin-left: -11px;
+  }
+  .ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 2px;
+    right: 8px;
+  }
+  .ol-popup-closer:after {
+    content: "✖";
+  }
+
+  #leyenda{
+    z-index: 5;
+    padding: 4px 8px 0px 0px;
+    border: 2px solid gray;
+    position: absolute;
+    bottom: 0px;
+    right: 0%;
+    height: 60%;
+    overflow: scroll;
+    width: 15%;
+    background-color: #ffffff;
+    font-weight: bold;
+  }
